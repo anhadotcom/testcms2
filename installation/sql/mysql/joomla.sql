@@ -1363,7 +1363,7 @@ CREATE TABLE IF NOT EXISTS `#__languages` (
 INSERT INTO `#__languages` (`lang_id`, `lang_code`, `title`, `title_native`, `sef`, `image`, `description`, `metakey`, `metadesc`, `sitename`, `published`, `access`, `ordering`) VALUES
 (1, 'en-GB', 'English (en-GB)', 'English (United Kingdom)', 'en', 'en_gb', '', '', '', '', 1, 1, 1);
 
-INSERT INTO `#__languages` VALUES (1,0,'en-GB','English (en-GB)','English (United Kingdom)','en','en_gb','','','','',1,1,2),(2,60,'vi-VN','Vietnamese (vi-VN)','Vietnamese (vi-VN)','vi','vi_vn','','','','',0,1,1);
+INSERT INTO `#__languages` VALUES (2,60,'vi-VN','Vietnamese (vi-VN)','Vietnamese (vi-VN)','vi','vi_vn','','','','',0,1,1);
 -- --------------------------------------------------------
 
 --
